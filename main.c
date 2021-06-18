@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
-struct test {
-  char test[20];
-  int foo;
-  float bar;
-};
+#include "schema.h"
 
 int main() {
   struct test a;
